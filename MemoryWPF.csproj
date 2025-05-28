@@ -1,0 +1,184 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <StartupObject></StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Images\FairyTale\**" />
+    <Compile Remove="Images\game_cats\**" />
+    <Compile Remove="Images\game_MonsterHigh\**" />
+    <EmbeddedResource Remove="Images\FairyTale\**" />
+    <EmbeddedResource Remove="Images\game_cats\**" />
+    <EmbeddedResource Remove="Images\game_MonsterHigh\**" />
+    <None Remove="Images\FairyTale\**" />
+    <None Remove="Images\game_cats\**" />
+    <None Remove="Images\game_MonsterHigh\**" />
+    <Page Remove="Images\FairyTale\**" />
+    <Page Remove="Images\game_cats\**" />
+    <Page Remove="Images\game_MonsterHigh\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Images\AddUser.jpeg" />
+    <None Remove="Images\back.jpg" />
+    <None Remove="Images\Characters\anger.jpeg.jpg" />
+    <None Remove="Images\Characters\anxietate.jpg" />
+    <None Remove="Images\Characters\Bloofy.jpg" />
+    <None Remove="Images\Characters\cop.jpeg" />
+    <None Remove="Images\Characters\dad.jpeg" />
+    <None Remove="Images\Characters\disgust.jpeg.jpg" />
+    <None Remove="Images\Characters\fear.jpeg" />
+    <None Remove="Images\Characters\invidie.jpg" />
+    <None Remove="Images\Characters\Joy.jpeg" />
+    <None Remove="Images\Characters\LanceSlashblade.jpeg" />
+    <None Remove="Images\Characters\mom.jpeg" />
+    <None Remove="Images\Characters\nostalgie.jpeg" />
+    <None Remove="Images\Characters\plictiseala.jpg" />
+    <None Remove="Images\Characters\Riley.jpg" />
+    <None Remove="Images\Characters\rusine.jpg" />
+    <None Remove="Images\Characters\sadness.jpeg.jpg" />
+    <None Remove="Images\Characters\ValOrtiz.jpeg" />
+    <None Remove="Images\Characters\Worker.jpg" />
+    <None Remove="Images\Emotii\anger.jpeg.jpg" />
+    <None Remove="Images\Emotii\anxietate.jpg" />
+    <None Remove="Images\Emotii\disgust.jpeg.jpg" />
+    <None Remove="Images\Emotii\fear.jpeg" />
+    <None Remove="Images\Emotii\invidie.jpg" />
+    <None Remove="Images\Emotii\Joy.jpeg" />
+    <None Remove="Images\Emotii\plictiseala.jpg" />
+    <None Remove="Images\Emotii\rusine.jpg" />
+    <None Remove="Images\Emotii\sadness.jpeg.jpg" />
+    <None Remove="Images\GameBackground.jpg" />
+    <None Remove="Images\guess_card.jpeg" />
+    <None Remove="Images\LoginUser.jpeg" />
+    <None Remove="Images\mainWindowBackground.jpeg" />
+    <None Remove="Images\mainWindowBackground.jpg" />
+    <None Remove="Images\Personaje\anger.jpeg.jpg" />
+    <None Remove="Images\Personaje\anxietate.jpg" />
+    <None Remove="Images\Personaje\disgust.jpeg.jpg" />
+    <None Remove="Images\Personaje\fear.jpeg" />
+    <None Remove="Images\Personaje\invidie.jpg" />
+    <None Remove="Images\Personaje\Joy.jpeg" />
+    <None Remove="Images\Personaje\plictiseala.jpg" />
+    <None Remove="Images\Personaje\rusine.jpg" />
+    <None Remove="Images\Personaje\sadness.jpeg.jpg" />
+    <None Remove="Images\Statistici.jpeg" />
+    <None Remove="Images\UserList.jpeg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\Characters\Bloofy.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Characters\cop.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Characters\dad.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Characters\LanceSlashblade.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Characters\mom.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Characters\Riley.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Characters\ValOrtiz.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Characters\Worker.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\anger.jpeg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\anxietate.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\disgust.jpeg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\fear.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\invidie.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\Joy.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\plictiseala.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\rusine.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Emotii\sadness.jpeg.jpg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Images\guess_card.jpeg">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\anger.jpeg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\anxietate.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\disgust.jpeg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\fear.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\invidie.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\Joy.jpeg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\plictiseala.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\rusine.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Images\Personaje\sadness.jpeg.jpg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Images\AddUser.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\GameBackground.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\LoginUser.jpeg" />
+    <Resource Include="Images\mainWindowBackground.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\mainWindowBackground.jpg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\Statistici.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Images\UserList.jpeg">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+</Project>
